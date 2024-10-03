@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YT Shorts to YT
 // @namespace    https://github.com/FranciscoGameiro2004/YT-Shorts-to-YT
-// @version      2024-10-03
+// @version      2024.10.3
 // @description  Avoid doomscrolling and watch a great short by going to the good old YouTube Player!
 // @author       Francisco Gameiro
 // @match        https://www.youtube.com/*
