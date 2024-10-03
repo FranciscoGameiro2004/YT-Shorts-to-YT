@@ -6,12 +6,10 @@
 Youtube's website has 2 kinds of players:
 - Normal player
     - The one that most of us know the most. The player is usually made for non-short videos (including the ones that are premiered) and livestreams. The player can also be used for watching shorts with a workaround.
-    - A link for a video that uses that kind of player looks like this:
-	    - https://www.youtube.com/watch?v=`{VIDEO ID}`
+    - A link for a video that uses that kind of player looks like this: https://www.youtube.com/watch?v= `{VIDEO ID}`
 - Shorts player
     - This player was recently implemented because of the launch of YouTube Shorts - a format that focuses on vertical videos with 60 seconds or less that was created in 2020 to compete with TikTok. This player can only be used to watch shorts.
-    - A link for a video that uses that kind of player looks like this:
-	    - https://www.youtube.com/shorts/`{VIDEO ID}`
+    - A link for a video that uses that kind of player looks like this: https://www.youtube.com/shorts/ `{VIDEO ID}`
 
 To watch a short in the normal player, the script simply checks if a video url goes to the Shorts player. If that condition is true, the URL is changed by replace the substring `"shorts/"` by `"watch?v="`
 
